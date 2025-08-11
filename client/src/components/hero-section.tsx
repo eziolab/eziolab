@@ -22,7 +22,7 @@ export default function HeroSection() {
               <span className="text-professional-blue"> Scalable Solutions</span>
             </h1>
             <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-              Eziolab transforms complex problems into elegant digital solutions. We specialize in AI-powered applications, custom development, and intelligent automation that drives real business results.
+              CognitionSync transforms complex problems into elegant digital solutions. We specialize in AI-powered applications, custom development, and intelligent automation that drives real business results.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <Button 
@@ -48,7 +48,7 @@ export default function HeroSection() {
               </div>
               <div className="flex items-center">
                 <Mail className="mr-2 h-4 w-4" />
-                <span>eziolab@gmail.com</span>
+                <span>CognitionSync@gmail.com</span>
               </div>
             </div>
           </div>

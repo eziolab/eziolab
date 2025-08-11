@@ -7,7 +7,7 @@ export default function TestimonialSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-navy mb-4">Success Stories</h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            See what our clients say about partnering with Eziolab for their digital innovation needs.
+            See what our clients say about partnering with CognitionSync for their digital innovation needs.
           </p>
         </div>
 
@@ -24,7 +24,7 @@ export default function TestimonialSection() {
                 </div>
               </div>
               <p className="text-slate-600 italic text-lg leading-relaxed">
-                "Eziolab's AI-powered solution transformed our customer service operations. The team's expertise in machine learning and automation delivered results beyond our expectations. Their attention to detail and commitment to our success made them true partners."
+                "CognitionSync's AI-powered solution transformed our customer service operations. The team's expertise in machine learning and automation delivered results beyond our expectations. Their attention to detail and commitment to our success made them true partners."
               </p>
             </div>
           </div>

@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-dark-navy py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <div className="text-3xl font-bold text-white mb-4">Eziolab </div>
+          <div className="text-3xl font-bold text-white mb-4">CognitionSync </div>
           <p className="text-slate-400 mb-6">
             Empowering businesses with cutting-edge digital solutions that are fast, scalable, and intelligent.
           </p>
@@ -34,7 +34,7 @@ export default function Footer() {
           </div>
           <div className="border-t border-slate-700 pt-8">
             <p className="text-slate-400 text-sm">
-              © 2024 Eziolab. All rights reserved. | Transforming ideas into intelligent digital solutions.
+              © 2024 CognitionSync. All rights reserved. | Transforming ideas into intelligent digital solutions.
             </p>
           </div>
         </div>

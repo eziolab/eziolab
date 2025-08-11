@@ -57,7 +57,7 @@ export default function ContactSection() {
     } catch (error) {
       toast({
         title: "Error sending message",
-        description: "Please try again or contact us directly at eziolab@gmail.com",
+        description: "Please try again or contact us directly at CognitionSync@gmail.com",
         variant: "destructive",
       });
     } finally {
@@ -77,7 +77,7 @@ export default function ContactSection() {
           {/* Quick Action Buttons */}
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a 
-              href="mailto:eziolab@gmail.com" 
+              href="mailto:CognitionSync@gmail.com" 
               className="inline-flex items-center px-6 py-3 bg-professional-blue hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-300 hover:shadow-lg"
             >
               <Mail className="mr-2 h-5 w-5" />
@@ -105,7 +105,7 @@ export default function ContactSection() {
             <h3 className="text-2xl font-bold text-white mb-8">Get in Touch</h3>
             <div className="space-y-6">
               <a 
-                href="mailto:eziolab@gmail.com" 
+                href="mailto:CognitionSync@gmail.com" 
                 className="flex items-center group hover:bg-white hover:bg-opacity-10 p-3 rounded-lg transition-all duration-300"
               >
                 <div className="w-12 h-12 bg-professional-blue bg-opacity-20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-professional-blue group-hover:bg-opacity-30">
@@ -113,7 +113,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <div className="text-slate-300 text-sm group-hover:text-white">Email us</div>
-                  <div className="text-white font-semibold">eziolab@gmail.com</div>
+                  <div className="text-white font-semibold">CognitionSync@gmail.com</div>
                 </div>
               </a>
               
