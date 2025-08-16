@@ -1,7 +1,17 @@
 import { Code, Brain, Puzzle, Bot, Cloud, Boxes } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { useLocation } from "wouter";
 
 const services = [
+  {
+    icon: Bot,
+    title: "Automation Services",
+    description: "Workflow automation using tools like n8n, Zapier, custom scripts, and APIs to reduce manual work.",
+    tags: ["n8n", "Zapier", "APIs"],
+    color: "text-orange-500",
+    bgColor: "bg-orange-500/10",
+    path: "/services/automation-services",
+  },
   {
     icon: Code,
     title: "Web Development",
@@ -27,14 +37,6 @@ const services = [
     bgColor: "bg-purple-500/10"
   },
   {
-    icon: Bot,
-    title: "Automation Services",
-    description: "Workflow automation using tools like n8n, Zapier, custom scripts, and APIs to reduce manual work.",
-    tags: ["n8n", "Zapier", "APIs"],
-    color: "text-orange-500",
-    bgColor: "bg-orange-500/10"
-  },
-  {
     icon: Cloud,
     title: "Cloud & DevOps",
     description: "Scalable cloud infrastructure, CI/CD pipelines, and containerized deployment for reliability and performance.",
@@ -53,6 +55,7 @@ const services = [
 ];
 
 export default function ServicesSection() {
+  const [, navigate] = useLocation();
   return (
     <section id="services" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -84,7 +87,10 @@ export default function ServicesSection() {
                     </Badge>
                   ))}
                 </div>
-                <button className="text-professional-blue font-semibold hover:underline group-hover:translate-x-1 transition-transform duration-300">
+                
+                <button 
+                  onClick={() => service.path && navigate(service.path)}
+                className="text-professional-blue font-semibold hover:underline group-hover:translate-x-1 transition-transform duration-300">
                   Learn More →
                 </button>
               </div>
