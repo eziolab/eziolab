@@ -33,7 +33,7 @@ const automationProjects: AutomationProject[] = [
   {
     icon: Settings,
     title: "Custom API Automation",
-    description: "Custom scripts to integrate third-party APIs for seamless data transfer.",
+    description: "Custom scripts to integrate third-party APIs for seamless data transfer",
     tags: ["APIs", "Python", "Webhooks"],
     image: "https://n8niostorageaccount.blob.core.windows.net/n8nio-strapi-blobs-prod/assets/merge_loop_filter_fd9aa5bb51.webp",
     github: "https://github.com/yourname/api-automation",
